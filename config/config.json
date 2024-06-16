@@ -1,0 +1,28 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "postgres",
+    "database": "finance_DB",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "useUTC": false
+    },
+    "timezone": "+07:00"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "use_env_variable": "DATABASE_URL",
+    "dialectOptions": {
+      "ssl": {
+        "rejectUnauthorized": false
+      }
+    }
+  }
+}

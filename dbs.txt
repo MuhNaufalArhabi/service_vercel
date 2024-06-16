@@ -1,0 +1,34 @@
+ sequelizDatabase Structure "Personal Financial Manager"
+
+Users
+PK	id 			text
+	surename	text
+	email 		text
+	password	text
+
+Accounts
+PK 	id 			text
+	name		text
+	saldo		float
+FK	UserId		uuid
+
+Categories
+PK	id		text
+	name		text
+
+Transactions
+PK	id		text
+	title		text
+	saldo		float
+	date		date
+	status		(income, spending, transfer saldo)
+FK	AccountId	text
+FK	CategoryId	text
+FK	UserId		text
+
+Budgets
+PK	id		text
+	startDate	date
+	endDate		date
+FK	UserId		date
+

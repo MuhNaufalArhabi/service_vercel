@@ -1,0 +1,62 @@
+{
+  "accounts": [
+    {
+      "name": "BCA",
+      "saldo": 0
+    },
+    {
+      "name": "BRI",
+      "saldo": 0
+    },
+    {
+      "name": "Mandiri",
+      "saldo": 0
+    },
+    {
+      "name": "Gopay",
+      "saldo": 0
+    },
+    {
+      "name": "OVO",
+      "saldo": 0
+    },
+    {
+      "name" :"Uang Tunai",
+      "saldo": 0
+    }
+  ],
+  "categories": [
+    {
+      "name": "Hiburan",
+      "status": "spending"
+    },
+    {
+      "name": "Lain-lain",
+      "status": "spending"
+    },
+    {
+      "name": "Makanan",
+      "status": "spending"
+    },
+    {
+      "name": "Minuman",
+      "status": "spending"
+    },
+    {
+      "name": "Pakaian",
+      "status": "spending"
+    },
+    {
+      "name": "Transportasi",
+      "status": "spending"
+    },
+    {
+      "name": "Gaji",
+      "status": "income"
+    },
+    {
+      "name": "Lain-lain",
+      "status": "income"
+    }
+  ]
+}
