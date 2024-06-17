@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "postgres",
-    "password": "postgres",
-    "database": "finance_DB",
-    "host": "127.0.0.1",
+    "username": "POSTGRES_USER",
+    "password": "POSTGRES_PASSWORD",
+    "database": "POSTGRES_DATABASE",
+    "host": "POSTGRES_HOST",
     "dialect": "postgres",
     "dialectOptions": {
       "useUTC": false
@@ -21,7 +21,8 @@
     "use_env_variable": "POSTGRES_URL",
     "dialectOptions": {
       "ssl": {
-        "rejectUnauthorized": false
+        "rejectUnauthorized": false,
+        "required": true
       }
     }
   }
