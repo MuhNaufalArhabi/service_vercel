@@ -18,7 +18,7 @@
     "dialect": "mysql"
   },
   "production": {
-    "use_env_variable": "POSTGRES_DATABASE",
+    "use_env_variable": "POSTGRES_URL",
     "dialectOptions": {
       "ssl": {
         "rejectUnauthorized": false
