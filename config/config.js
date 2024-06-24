@@ -1,12 +1,16 @@
-{
+require("dotenv").config()
+module.exports = {
   "development": {
-    "username": "POSTGRES_USER",
-    "password": "POSTGRES_PASSWORD",
-    "database": "POSTGRES_DATABASE",
-    "host": "POSTGRES_HOST",
+    "username": process.env.POSTGRES_USER,
+    "password": process.env.POSTGRES_PASSWORD,
+    "database": process.env.POSTGRES_DATABASE,
+    "host": process.env.POSTGRES_HOST,
     "dialect": "postgres",
     "dialectOptions": {
-      "useUTC": false
+      "useUTC": false,
+      "ssl": {
+        "required": true
+      }
     },
     "timezone": "+07:00"
   },
